@@ -10,11 +10,11 @@ O cachorrinho reage a **cores** (alimentação, via sensor de cor) e a **carinho
 
 As fotos abaixo registram a preparação do projeto, a organização das peças e a equipe com o Puppy montado:
 
-| Kit e instruções de montagem                                                                            | Organização das peças                                                                         |
-| ------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
-| ![Kit LEGO MINDSTORMS EV3 e instruções de montagem](WhatsApp%20Image%202026-09-18%20at%2010.08.02.jpeg) | ![Peças LEGO organizadas para a montagem](WhatsApp%20Image%202026-09-18%20at%2010.08.19.jpeg) |
+| Kit e instruções de montagem                                                                    | Organização das peças                                                         |
+| ----------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------- |
+| ![Kit LEGO MINDSTORMS EV3 e instruções de montagem](docs/images/kit-e-instrucoes-montagem.jpeg) | ![Peças LEGO organizadas para a montagem](docs/images/pecas-organizadas.jpeg) |
 
-![Equipe com o robô Puppy montado](1789734999550.jpg)
+![Equipe com o robô Puppy montado](docs/images/equipe-com-puppy.jpg)
 
 *Registro da montagem e da apresentação do robô Puppy.*
 
@@ -28,7 +28,7 @@ puppy/              → projeto EV3 (é esta pasta que vai para o brick)
   .vscode/            configurações da extensão EV3 do VS Code
 archive/            → versões antigas, fora do projeto EV3
 Materiais de Aula/  → PDFs e materiais da disciplina
-*.jpeg / *.jpg      → registros fotográficos do projeto
+docs/images/        → registros fotográficos do projeto
 ```
 
 | Caminho                                        | Descrição                                                                                                                 |
@@ -38,7 +38,14 @@ Materiais de Aula/  → PDFs e materiais da disciplina
 | [`puppy/.vscode/`](puppy/.vscode/)             | Configurações da extensão EV3 (o `launch.json` aponta para `mainP.py`)                                                    |
 | [`archive/`](archive/)                         | Versões antigas — não usar. Ficam fora de `puppy/` para não serem enviadas ao brick ([detalhes](archive/README.md))       |
 | [`Materiais de Aula/`](Materiais%20de%20Aula/) | PDFs, DOCX e PPTX da disciplina (roteiro de avaliação, configuração do ambiente, manual do EV3, template de apresentação) |
-| Fotos na raiz                                  | Registros da montagem, das peças e da equipe ([galeria](#registro-do-projeto))                                            |
+| [`docs/images/`](docs/images/)                 | Fotos da montagem, das peças e da equipe ([galeria](#registro-do-projeto))                                                |
+
+### Convenções de organização
+
+- `puppy/` contém somente o projeto atual enviado ao brick.
+- `archive/` contém versões antigas e não deve ser executado.
+- `Materiais de Aula/` contém os arquivos fornecidos pela disciplina.
+- `docs/images/` contém registros visuais; imagens novas devem usar nomes descritivos em minúsculas, separados por hífens.
 
 ---
 
